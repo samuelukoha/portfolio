@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: o;
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: o;
+}
+
+body {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heads> h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    font-size: 40px;
+}
+header> p {
+    text-align: center;
+}
+
+
+
+.profile {
+    margin: 10px;
+    align-items: center;
+}
+
+.profile> h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 30%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.profile> p {
+    display: grid;
+    grid-column: span;
+    margin: 20px;
+    padding: 20px;
+    line-height: 30px;
+}
+
+.profiles > p {
+    padding: 10px;
+}
+
+.work> h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.work> ul,p  {
+    padding: 20px;
+}
+
+.work> p {
+    padding: 20px;
+    margin: 10px;
+}
+
+.works> h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.works> ul {
+    padding: 20px;
+    margin: 20px;
+}
+
+.education> h2 {
+    margin: 20px;
+    background-color: black;
+    color: white;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.education> li,p {
+    display: flex;
+}
+
+.works {
+    padding: 20px;
+}
+
+.skills {
+    padding: 20px;
+    margin:20px;
+}
+
+.skills> h2 {
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.skills> ul,li {
+    margin: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+  
+  @media (max-width: 61.25em) {
+    html {
+      font-size: 58%;
+    }
+  }
+  
+  @media (max-width: 28.75em) {
+    html {
+      font-size: 55%;
+    }
+  }
+
+  
+  @media (max-width: 75em) {
+    .heads {
+      justify-content: center;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 61.25em) {
+    .profile {
+      justify-content: center;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 28.75em) {
+    .work {
+      justify-content: center;
+      text-align: center;
+    }
+  }
